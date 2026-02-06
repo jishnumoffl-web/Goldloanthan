@@ -65,13 +65,13 @@ export default function Hero() {
               <p className="text-3xl font-bold">35+</p>
               <p className="text-sm font-semibold">Years Trust</p>
             </div>
-            <div className="border-x border-black/20">
+            <div className="border-x border-black/50">
               <p className="text-3xl font-bold">500+</p>
               <p className="text-sm font-semibold">Customers</p>
             </div>
             <div>
-              <p className="text-3xl font-bold">0</p>
-              <p className="text-sm font-semibold">Documentation</p>
+              <p className="text-3xl font-bold">24/7</p>
+              <p className="text-sm font-semibold">Support</p>
             </div>
           </div>
         </div>

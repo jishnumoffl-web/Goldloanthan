@@ -18,7 +18,7 @@ export default function About() {
               </div>
 
               {/* Floating Card */}
-              <div className="absolute -bottom-6 -right-0 bg-gray-900 text-white rounded-2xl p-6 shadow-xl">
+              <div className="absolute -bottom-10 -right-0 bg-gray-900 text-white rounded-2xl p-6 shadow-xl">
                 <p className="text-3xl font-bold text-[#FDB913]">35+</p>
                 <p className="text-sm text-gray-300">Years of Excellence</p>
               </div>

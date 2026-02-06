@@ -6,37 +6,13 @@ export default function Process() {
       description:
         "Visit our branch with your gold jewelry, coins, or bars. We accept all forms of gold ornaments.",
       icon: (
-        <svg
-          className="w-8 h-8"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <rect
-            x="3"
-            y="6"
-            width="18"
-            height="12"
-            rx="2"
-            ry="2"
-            strokeWidth="1.5"
+        <div className="w-10 h-10 relative">
+          <img
+            src="/images/cash.webp"
+            alt="Gold Bar"
+            className="object-contain"
           />
-          <rect
-            x="6"
-            y="9"
-            width="12"
-            height="6"
-            rx="1"
-            ry="1"
-            strokeWidth="1.5"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="1.5"
-            d="M12 12h.01"
-          />
-        </svg>
+        </div>
       ),
     },
     {
