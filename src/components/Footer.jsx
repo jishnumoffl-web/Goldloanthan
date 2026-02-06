@@ -104,7 +104,7 @@ export default function Footer() {
               <div>
                 <p className="text-sm text-gray-500">Call for Instant Loan</p>
                 <p className="text-xl font-bold group-hover:text-[#FFD66B] transition">
-                  8714 742 635
+                  +91 8714742635
                 </p>
               </div>
             </a>
