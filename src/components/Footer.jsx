@@ -6,14 +6,12 @@ export default function Footer() {
   const quickLinks = [
     { name: "Home", href: "#home" },
     { name: "Services", href: "#services" },
-    { name: "Calculator", href: "#calculator" },
     { name: "About Us", href: "#about" },
     { name: "Contact", href: "#contact" },
   ];
 
   const services = [
     "Gold Loan",
-    "Business Loan",
     "Emergency Loan",
     "Short-Term Loan",
     "Long-Term Loan",
@@ -29,7 +27,7 @@ export default function Footer() {
             <Link href="#home" className="inline-flex items-center gap-4 mb-6">
               <div>
                 <img
-                  src="/images/logo.png"
+                  src="/images/logo.webp"
                   alt=""
                   className="h-12 object-contain"
                 />

@@ -74,7 +74,7 @@ export default function Navbar() {
               href="tel:8714742635"
               className="bg-[#FDB913] text-center py-2 rounded-full"
             >
-              Call 8714 742 635
+              Call +91 8714742635
             </a>
           </div>
         </div>

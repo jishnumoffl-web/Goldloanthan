@@ -1,3 +1,4 @@
+import { Clock, MapPin, Phone } from "lucide-react";
 import { Playfair_Display } from "next/font/google";
 
 const playfair = Playfair_Display({
@@ -56,7 +57,7 @@ export default function Contact() {
                 className="flex items-center gap-4 group"
               >
                 <div className="w-14 h-14 bg-[#FFF1C1] text-[#B8860B] rounded-2xl flex items-center justify-center group-hover:bg-[#FDB913] group-hover:text-white transition">
-                  📞
+                  <Phone />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-medium">
@@ -71,7 +72,7 @@ export default function Contact() {
               {/* Working Hours */}
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 bg-[#FFF1C1] text-[#B8860B] rounded-2xl flex items-center justify-center">
-                  ⏰
+                  <Clock />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-medium">
@@ -86,7 +87,7 @@ export default function Contact() {
               {/* Trust */}
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 bg-[#FFF1C1] text-[#B8860B] rounded-2xl flex items-center justify-center">
-                  ✔
+                  <MapPin />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500 font-medium">Locations</p>
