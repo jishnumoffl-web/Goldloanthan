@@ -62,7 +62,7 @@ export default function WhyChooseUs() {
     },
     {
       icon: (
-        <div className="w-10 h-10 flex items-center justify-center font-extrabold text-2xl">
+        <div className="w-13 h-13 flex items-center justify-center font-extrabold text-3xl">
           ₹
         </div>
       ),

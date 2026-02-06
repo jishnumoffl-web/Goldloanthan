@@ -6,9 +6,9 @@ export default function Process() {
       description:
         "Visit our branch with your gold jewelry, coins, or bars. We accept all forms of gold ornaments.",
       icon: (
-        <div className="w-10 h-10 relative">
+        <div className="w-14 h-14 relative">
           <img
-            src="/images/cash.webp"
+            src="/images/bar.webp"
             alt="Gold Bar"
             className="object-contain"
           />
@@ -42,9 +42,9 @@ export default function Process() {
       description:
         "Get instant loan disbursement via cash or bank transfer. No delays, no waiting period.",
       icon: (
-        <div className="w-10 h-10 relative">
+        <div className="w-14 h-14 p-1 justify-center items-center relative">
           <img
-            src="/images/bar.webp"
+            src="/images/coin.webp"
             alt="Gold Bar"
             className="object-contain"
           />
