@@ -29,7 +29,7 @@ export default function Contact() {
               <div className="flex items-center gap-4 mb-6">
                 <div>
                   <img
-                    src="/images/logo.png"
+                    src="/images/logo.webp"
                     alt=""
                     className="object-contain h-12"
                   />

@@ -19,7 +19,7 @@ export default function Navbar() {
           href="/"
           className="font-extrabold text-xl tracking-wide flex gap-2 justify-center items-center"
         >
-          <img src="/images/logo.png" alt="" className="object-contain h-14" />
+          <img src="/images/logo.webp" alt="" className="object-contain h-14" />
           <span className={`${playfair.className}  text-[#000000]`}>
             Thandapra
           </span>

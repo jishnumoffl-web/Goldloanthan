@@ -14,7 +14,7 @@ export default function About() {
           <div className="relative">
             <div className="relative  rounded-3xl p-8 sm:p-12">
               <div>
-                <img src="/images/logo.png" alt="" />
+                <img src="/images/logo.webp" alt="" />
               </div>
 
               {/* Floating Card */}

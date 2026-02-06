@@ -77,7 +77,7 @@ export default function Hero() {
         <div className="relative flex justify-center">
           <div className="relative w-[380px]  lg:w-[550px]  rounded-3xl overflow-hidden ">
             <img
-              src="/images/hero.png" // 👉 place image in /public
+              src="/images/hero.webp" // 👉 place image in /public
               alt="Gold Loan Services"
               className="object-cover"
               priority
