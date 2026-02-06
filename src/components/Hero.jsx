@@ -42,17 +42,20 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <Link
-              href="#calculator"
+            <a
+              href="https://wa.me/918714742635?text=Hello%20Thandapra%20Gold%20Loan%20Team%2C%20I%20want%20to%20apply%20for%20a%20gold%20loan."
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-black text-white px-8 py-4 rounded-full font-bold hover:scale-105 transition"
             >
               Apply Now
-            </Link>
+            </a>
+
             <a
               href="tel:8714742635"
               className="bg-white text-black px-8 py-4 rounded-full font-bold border-2 border-black hover:scale-105 transition"
             >
-              Call 8714 742 635
+              Call +91 8714742635
             </a>
           </div>
 
@@ -63,24 +66,23 @@ export default function Hero() {
               <p className="text-sm font-semibold">Years Trust</p>
             </div>
             <div className="border-x border-black/20">
-              <p className="text-3xl font-bold">50K+</p>
+              <p className="text-3xl font-bold">500+</p>
               <p className="text-sm font-semibold">Customers</p>
             </div>
             <div>
-              <p className="text-3xl font-bold">100%</p>
-              <p className="text-sm font-semibold">Secure</p>
+              <p className="text-3xl font-bold">0</p>
+              <p className="text-sm font-semibold">Documentation</p>
             </div>
           </div>
         </div>
 
         {/* RIGHT IMAGE */}
         <div className="relative flex justify-center">
-          <div className="relative w-[380px]  lg:w-[550px]  rounded-3xl overflow-hidden ">
+          <div className="relative w-full max-w-[520px] aspect-[4/5] lg:max-h-[50vh] max-h-[30vh] rounded-3xl overflow-hidden ">
             <img
               src="/images/hero.webp" // 👉 place image in /public
               alt="Gold Loan Services"
               className="object-cover"
-              priority
             />
           </div>
         </div>

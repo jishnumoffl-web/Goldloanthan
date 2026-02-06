@@ -12,11 +12,29 @@ export default function Process() {
           stroke="currentColor"
           viewBox="0 0 24 24"
         >
+          <rect
+            x="3"
+            y="6"
+            width="18"
+            height="12"
+            rx="2"
+            ry="2"
+            strokeWidth="1.5"
+          />
+          <rect
+            x="6"
+            y="9"
+            width="12"
+            height="6"
+            rx="1"
+            ry="1"
+            strokeWidth="1.5"
+          />
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={1.5}
-            d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
+            strokeWidth="1.5"
+            d="M12 12h.01"
           />
         </svg>
       ),
@@ -48,19 +66,13 @@ export default function Process() {
       description:
         "Get instant loan disbursement via cash or bank transfer. No delays, no waiting period.",
       icon: (
-        <svg
-          className="w-8 h-8"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={1.5}
-            d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2z"
+        <div className="w-10 h-10 relative">
+          <img
+            src="/images/bar.webp"
+            alt="Gold Bar"
+            className="object-contain"
           />
-        </svg>
+        </div>
       ),
     },
   ];
@@ -83,7 +95,7 @@ export default function Process() {
             Get Your Loan in 3 Simple Steps
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            From gold evaluation to cash disbursement in under 30 minutes.
+            From gold evaluation to instant cash disbursement with no waiting.
           </p>
         </div>
 
@@ -133,7 +145,7 @@ export default function Process() {
               />
             </svg>
             <span className="text-[#FFD66B] font-semibold">
-              Average processing time: Under 30 minutes
+              Quick and seamless gold loan process
             </span>
           </div>
         </div>
