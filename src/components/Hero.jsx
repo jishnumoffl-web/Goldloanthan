@@ -27,6 +27,13 @@ export default function Hero() {
               Trusted Since 1989
             </span>
           </div>
+          <div>
+            <h1
+              className={`${playfair.className} text-4xl md:text-5xl font-extrabold text-black mt-8 tracking-wide`}
+            >
+              THANDAPRA
+            </h1>
+          </div>
 
           <h1
             className={`${playfair.className} text-4xl md:text-5xl font-extrabold text-black mt-8 tracking-wide`}
